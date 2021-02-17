@@ -259,7 +259,7 @@
         </resources>
     </build>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>nexus-releases</id>
             <name>Nexus Release Repository</name>
@@ -270,10 +270,10 @@
             <name>Nexus Snapshot Repository</name>
             <url>http://8.129.45.134:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
 
     <repositories>
-        <repository>
+        <!--<repository>
             <id>nexus</id>
             <name>Nexus Repository</name>
             <url>http://8.129.45.134:8081/repository/maven-public/</url>
@@ -283,7 +283,7 @@
             <releases>
                 <enabled>true</enabled>
             </releases>
-        </repository>
+        </repository>-->
 
         <repository>
             <id>aliyun-repos</id>
@@ -339,7 +339,7 @@
     </repositories>
 
     <pluginRepositories>
-        <pluginRepository>
+        <!--<pluginRepository>
             <id>nexus</id>
             <name>Nexus Plugin Repository</name>
             <url>http://8.129.45.134:8081/repository/maven-public/</url>
@@ -349,7 +349,7 @@
             <releases>
                 <enabled>true</enabled>
             </releases>
-        </pluginRepository>
+        </pluginRepository>-->
 
         <pluginRepository>
             <id>aliyun-repos</id>
